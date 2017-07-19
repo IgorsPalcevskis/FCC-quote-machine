@@ -1,0 +1,40 @@
+* {
+  margin:0;
+  padding:0;
+  font-size: 16px;
+}
+html{
+  position:relative;
+  height: 100%;
+}
+.jumbotron {
+  background: url('http://res.cloudinary.com/db6e0gluw/image/upload/v1498479839/Library_Books_Shelf_Background_rbh7gc.jpg') no-repeat center center;
+  opacity: 0.75;
+  font-family: 'Contrail One', cursive;
+  text-shadow: -1px 0 #434345, 0 1px #434345, 1px 0 #434345, 0 -1px #434345;
+  color: white;
+}
+.btn {
+  border-radius: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.quote_btn {margin-bottom: 15px;}
+p, h1 {text-align:center;}
+p, h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+footer {
+  padding-top: 15px;
+  height: 150px;
+  background-color: #a5a5a7;
+}
