@@ -39,7 +39,4 @@ $( document ).ready(function() {
     window.open('https://twitter.com/home/?status=' + encodeURIComponent('"'+ quote + '"' + ' - ' + author));
   });
 });
-<<<<<<< HEAD
 // testing github
-=======
->>>>>>> bc0e20cf9d2880601b4afe9d158c02c49ae3b59a
